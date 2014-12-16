@@ -10,8 +10,6 @@ import android.widget.GridView;
 
 public class PeopleFragment extends Fragment {
 
-    Context mContext;
-
     public PeopleFragment(){}
 
     public static PeopleFragment newInstance(){

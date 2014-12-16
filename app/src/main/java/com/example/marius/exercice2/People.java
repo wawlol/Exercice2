@@ -5,8 +5,6 @@ import java.util.ArrayList;
 
 public class People {
 
-
-
     private String      mName = null;
     private String      mSex = null;
     private float       mLat = -1;

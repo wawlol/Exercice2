@@ -1,13 +1,10 @@
 package com.example.marius.exercice2;
 
 
-import android.app.Fragment;
-
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.model.LatLng;
-import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
 
 public class MyMapFragment extends MapFragment {
@@ -27,7 +24,6 @@ public class MyMapFragment extends MapFragment {
             @Override
             public void onMapReady(GoogleMap googleMap) {
 
-
                 for (int i = 0; i<People.getPeoples().size(); i++){
 
                     People person = People.getPeoples().get(i);
@@ -43,7 +39,5 @@ public class MyMapFragment extends MapFragment {
         });
         super.onStart();
     }
-
-
 }
 

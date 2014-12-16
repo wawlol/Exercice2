@@ -16,7 +16,6 @@ public class PeopleAdapter extends ArrayAdapter<People> {
         super(context, 0, peoples);
 
 }
-
     @Override
     public View getView (int position, View convertView, ViewGroup parent){
 

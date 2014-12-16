@@ -20,11 +20,11 @@ import com.google.android.gms.maps.GoogleMap;
 
 public class MainActivity extends ActionBarActivity {
 
-    private Toolbar                 mToolbar;
-    private DrawerLayout            mDrawerLayout;
-    private ActionBarDrawerToggle   mDrawerToggle;
-    private String[]                mDrawerList;
-    private ListView                mDrawerItem;
+    private Toolbar                 mToolbar        = null;
+    private DrawerLayout            mDrawerLayout   = null;
+    private ActionBarDrawerToggle   mDrawerToggle   = null ;
+    private String[]                mDrawerList     = null;
+    private ListView                mDrawerItem     = null;
 
 
     @Override
@@ -40,8 +40,7 @@ public class MainActivity extends ActionBarActivity {
 
         setSupportActionBar(mToolbar);
 
-        mDrawerItem.setAdapter(new ArrayAdapter<>(this,
-                R.layout.drawer_list_item, mDrawerList));
+        mDrawerItem.setAdapter(new ArrayAdapter<>(this,R.layout.drawer_list_item, mDrawerList));
 
         mDrawerLayout.setDrawerListener(mDrawerToggle);
 
