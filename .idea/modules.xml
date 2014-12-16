@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Exercice2.iml" filepath="$PROJECT_DIR$/Exercice2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmentDynamicLayout/fragmentDynamicLayout.iml" filepath="$PROJECT_DIR$/fragmentDynamicLayout/fragmentDynamicLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmentProgrammaticLayout/fragmentProgrammaticLayout.iml" filepath="$PROJECT_DIR$/fragmentProgrammaticLayout/fragmentProgrammaticLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmentStaticConfigLayout/fragmentStaticConfigLayout.iml" filepath="$PROJECT_DIR$/fragmentStaticConfigLayout/fragmentStaticConfigLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/fragmentStaticLayout/fragmentStaticLayout.iml" filepath="$PROJECT_DIR$/fragmentStaticLayout/fragmentStaticLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/helloAndroidWithMenus/helloAndroidWithMenus.iml" filepath="$PROJECT_DIR$/helloAndroidWithMenus/helloAndroidWithMenus.iml" />
+    </modules>
+  </component>
+</project>
+

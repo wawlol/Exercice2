@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Exercice2</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu">Menu</string>
+    <string name="open">Opened</string>
+    <string name="close">Closed</string>
+
+    <string-array name="drawer_list">
+        <item name="home">Home</item>
+        <item name="map">Map</item>
+        <item name="people">People</item>
+    </string-array>
+
+    <string name="homeText">Home</string>
+
+</resources>

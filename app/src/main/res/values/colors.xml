@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F44336</color>
+    <color name="colorPrimaryDark">#673AB7</color>
+
+    <color name="colorSecondary">@color/material_deep_teal_200</color>
+    <color name="colorSecondaryDark">@color/material_deep_teal_500</color>
+
+    <!--<color name="windowBackgroundColor">#333333</color>-->
+    <color name="black_translucent">#80000000</color>
+
+    <color name="windowBackground">#DCE775</color>
+    <color name="navigationBarColor">#607D8B</color>
+
+    <color name="popupBackground">#ff14dc0a</color>
+
+    <color name="gridCellColor">#ff1d28dc</color>
+    <color name="black">#ff000000</color>
+</resources>
+
