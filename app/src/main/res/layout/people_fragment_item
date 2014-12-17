@@ -1,6 +1,6 @@
 <TextView xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/people_textview"
-    android:layout_height="100dp"
-    android:layout_width="100dp"
+    android:layout_height="110dp"
+    android:layout_width="110dp"
     android:background="@color/gridCellColor"
     android:gravity="center"/>

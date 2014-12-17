@@ -6,14 +6,7 @@
     android:numColumns="3"
     android:verticalSpacing="10dp"
     android:horizontalSpacing="10dp"
+    android:padding="10dp"
     android:gravity="center"
     />
 
-
-<!--<TextView-->
-    <!--android:layout_width="match_parent"-->
-    <!--android:layout_height="match_parent"-->
-    <!--android:text="TEXTE"-->
-    <!--android:gravity="center"-->
-    <!--android:textColor="@color/black_translucent"-->
-    <!--xmlns:android="http://schemas.android.com/apk/res/android" />-->
