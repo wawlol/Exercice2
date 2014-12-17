@@ -1,7 +1,6 @@
 package com.example.marius.exercice2;
 
 import android.app.Fragment;
-import android.content.Context;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -13,8 +12,7 @@ public class PeopleFragment extends Fragment {
     public PeopleFragment(){}
 
     public static PeopleFragment newInstance(){
-        PeopleFragment f = new PeopleFragment();
-        return f;
+        return new PeopleFragment();
     }
 
     @Override

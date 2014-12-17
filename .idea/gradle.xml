@@ -10,11 +10,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/fragmentDynamicLayout" />
-            <option value="$PROJECT_DIR$/fragmentProgrammaticLayout" />
-            <option value="$PROJECT_DIR$/fragmentStaticConfigLayout" />
-            <option value="$PROJECT_DIR$/fragmentStaticLayout" />
-            <option value="$PROJECT_DIR$/helloAndroidWithMenus" />
           </set>
         </option>
       </GradleProjectSettings>
