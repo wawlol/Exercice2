@@ -67,7 +67,7 @@ public class MainActivity extends ActionBarActivity {
         if (position == 0){
             System.out.println("Nouvelle Instance du fragment SwipeView");
             fragmentTransaction.replace(R.id.content_frame, SwipeViewFragment.newInstance());
-            fragmentTransaction.addToBackStack(null);
+//            fragmentTransaction.addToBackStack(null);
             fragmentTransaction.commit();
             mDrawerLayout.closeDrawer(mDrawerItem);
         }
