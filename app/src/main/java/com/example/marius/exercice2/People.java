@@ -23,7 +23,7 @@ public class People {
 
         ArrayList<People> peoples = new ArrayList<>();
 
-        for (int i = 1; i < 46; i++) {
+        for (int i = 1; i < 15; i++) {
             peoples.add(new People("Marius " + i, "Male", i * 5, i * 10));
         }
         return peoples;
