@@ -1,5 +1,6 @@
 package com.example.marius.exercice2;
 
+
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.res.Configuration;
@@ -14,8 +15,6 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
-
-import com.google.android.gms.maps.GoogleMap;
 
 
 public class MainActivity extends ActionBarActivity {
@@ -43,6 +42,7 @@ public class MainActivity extends ActionBarActivity {
         mDrawerItem.setAdapter(new ArrayAdapter<>(this,R.layout.drawer_list_item, mDrawerList));
 
         mDrawerLayout.setDrawerListener(mDrawerToggle);
+        mDrawerLayout.setDrawerLockMode(DrawerLayout.LOCK_MODE_LOCKED_CLOSED);
 
         FragmentManager fragmentManager = getFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
@@ -50,6 +50,8 @@ public class MainActivity extends ActionBarActivity {
         fragmentTransaction.commit();
 
         mDrawerItem.setOnItemClickListener(new DrawerItemClickListener());
+
+        //Code for the tab :
     }
 
     private class DrawerItemClickListener implements ListView.OnItemClickListener {
@@ -63,7 +65,9 @@ public class MainActivity extends ActionBarActivity {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
 
         if (position == 0){
-            fragmentTransaction.replace(R.id.content_frame, HomeFragment.newInstance());
+            System.out.println("Nouvelle Instance du fragment SwipeView");
+            fragmentTransaction.replace(R.id.content_frame, SwipeViewFragment.newInstance());
+            fragmentTransaction.addToBackStack(null);
             fragmentTransaction.commit();
             mDrawerLayout.closeDrawer(mDrawerItem);
         }
